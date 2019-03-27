@@ -30,7 +30,7 @@ provides=("gtk3=${pkgver}")
 conflicts=(gtk3)
 license=(LGPL)
 _commit=4569bb372f838a9a68c9b134ef18865abe77001c  # tags/3.22.4^0
-source=("git://git.gnome.org/gtk+#commit=${_commit}"
+source=("git://gitlab.gnome.org/GNOME/gtk+#commit=${_commit}"
         settings.ini
         gtk-query-immodules-3.0.hook)
 

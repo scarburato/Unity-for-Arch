@@ -26,7 +26,7 @@ groups=(gnome unity)
 provides=("gnome-session=${pkgver}")
 conflicts=(gnome-session systemd-unity)
 _commit=09f44cc50eafa047856d483ee18ebae99f8b8352  # tags/3.22.1^0
-source=("git://git.gnome.org/gnome-session#commit=${_commit}"
+source=("git://gitlab.gnome.org/GNOME/gnome-session#commit=${_commit}"
         polkit-gnome-authentication-agent-1-unity.desktop)
 
 if [[ "${_use_ppa}" == "true" ]]; then
