@@ -25,7 +25,7 @@ depends=(libnm-glib libgudev gtk3 mobile-broadband-provider-info iso-codes
          libappindicator-gtk3 python2)
 makedepends=(libsecret libnotify libmm-glib intltool gobject-introspection git)
 _commit=e5f280769a7097cdf97789c11fdf3a49c11cf3f6  # tags/1.4.2^0
-source=("git://gitlab.gnome.org/GNOME/network-manager-applet#commit=$_commit"
+source=("https://gitlab.gnome.org/GNOME/network-manager-applet"
         "https://launchpad.net/ubuntu/+archive/primary/+files/${pkgbase%-*}_${_ubuntu_ver:-${pkgver}}-${_ubuntu_rel}.debian.tar.xz")
 sha512sums=('SKIP'
             '6d1cbb49e9a6c09a0739b97b20f757bfa0ab9ad7495a1ae97f423dfdd7f5951d42bf5a1188878c1050878109f10dd3acf7a23979ecf26244ae09dc53cb30a4bc')

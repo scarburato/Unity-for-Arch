@@ -22,7 +22,7 @@ makedepends=(intltool gobject-introspection git gnome-common)
 provides=("${pkgname%-*}=${pkgver}")
 conflicts=("${pkgname%-*}")
 _commit=6f52ab56bcf02c4a7315e433e30f45f106f31c3f
-source=("git://gitlab.gnome.org/GNOME/gsettings-desktop-schemas#commit=${_commit}"
+source=("https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas"
         "https://launchpad.net/ubuntu/+archive/primary/+files/gsettings-desktop-schemas_${_ubuntu_ver:-${pkgver}}-${_ubuntu_rel}.debian.tar.xz")
 sha512sums=('SKIP'
             'e71dc5c3b01ecb8156aebe260d450c0f35aa6816a6b3acc43298a5e2e0f9134f8bdef6b19992d31f80d7d5333eec43d125b5c95ca1781dfd13d099ab0745bee4')
